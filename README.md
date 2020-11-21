@@ -1,5 +1,5 @@
 # FicBook_iDOR
-This is a simple iDOR program Writed on Python.
+This is a simple iDOR program for site "ficbook.net" Writed on Python.
 
 You need to first install Python library "requests"
 
