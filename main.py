@@ -27,7 +27,7 @@ try:
         if r.status_code == 200:
             print('Fic exist: '+bef+numbert)
             with open('existfics.txt', 'a') as existfics:
-                existfics.write("pesun")
+                existfics.write(bef+numbert)
 except KeyboardInterrupt:
     if platform == "linux" or platform == "linux2" or platform == "Linux" or platform == "darwin" or platform == "Darwin":
         os.system("clear")
